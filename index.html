@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>Friends Bamboozled 🐒 </title>
+</head>
+<body>
+    <header>
+        <h1>The <span style="color:#ffdc00">.</span> One <span style="color:red">.</span> With <span style="color:#42A2D6">.</span>The <span style="color:#ffdc00">.</span> Bamboozled <span style="color:red"></span> <span style="color: red">.</span> Quiz</h1>
+        <audio src="./assets/friends-opening.mp3" type="audio/mpeg"></audio>
+        <img class="couch" src="./assets/couch.png" alt="orange couch in Friends">
+    
+        </div>
+        <div class="arrow"></div>
+        <audio src="./assets/letPlayBamboolzed.mp3"></audio>
+    </header>
+            <!-- Start of question container -->
+    <main>
+        <div class="round round1"></div>
+        <div class="round round2"></div>
+        <div class="round round3"></div>
+        <div class="round round4"></div>
+        <div class="background"></div>
+        <section class="wrapper quiz-rule">
+            <h2>Housekeeping Rule</h2>
+            <ul>
+                <li>You will have 30 seconds per question</li>
+                <li>You can only answer question once</li>
+                <li>You will get point for any correct answer</li>
+                <li>Be a Monica, Get as many points as you can</li>
+            </ul>
+            <img src="./assets/friend_question2.png" alt="friend image in quiz">
+            <button class="quiz-start">Ready! Pivot !</button>
+        </section>
+
+        <section class=" wrapper quiz-menu">
+            <p>🕒 0:<span class="timer-count">0</span></p>
+            <p class="number-of-question">Question <span class="question-no"> 1</span> of 15</p>
+            <p class="question">Question</p>
+            <section class="answer-container">
+                <div class="answer-styling">
+                    <button class="answer-btn" id="a">Answer 1</button>
+                    <button class="answer-btn" id="b">Answer 2</button>
+                </div>
+                <div class="answer-styling">
+                    <button class="answer-btn" id="c">Answer 3</button>
+                    <button class="answer-btn" id="d">Answer 4</button>
+                </div>
+            </section>
+            <button class="next-btn">Next</button>
+            <div class="incorrect-answer"></div>
+            <audio src="./assets/correct_sound.mp3" type="audio/mpeg"></audio>
+            <audio src="./assets/wronganswer.mp3" type="audio/mpeg"></audio>
+        </section>
+
+        <section class="wrapper show-score">
+            <h2>Your Score</h2>
+            <h3><span class="score-number">0</span> /15</h3>
+            <h4>Placeholder</h4>
+            <button class="restart-btn">Replay Quiz</button>
+            <audio src="./assets/soundforLowScore.mp3" type="audio/mpeg"></audio>
+            <audio src="./assets/how_u_doing.mp3" type="audio/mpeg"></audio>
+        </section>
+    </main>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
